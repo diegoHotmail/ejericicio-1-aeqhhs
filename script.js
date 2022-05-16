@@ -57,7 +57,8 @@ function onLoad() {
         },
     ];
 
-    // Este array de usuarios debe generarse en una función llamada "createUsers". Al generar el array hay que asignarlo a una variable que haya sido declarada globalmente fuera de la función.
+    // Este array de usuarios debe generarse en una función llamada "createUsers". Al generar el array hay que
+    // asignarlo a una variable que haya sido declarada globalmente fuera de la función.
 
     function createUsers(nombre, pais, dinero, cuentaPremium) {
         let usuario = {
@@ -78,7 +79,8 @@ function onLoad() {
 
     // Después de crear el array, deberéis realizar un filtrado empleando el método del objeto "Array", "filter".
     // Este filtrado deberá generar otro array con los usuarios que sean de españa y que tengan más de 200 euros.
-    // El filtrado se realizará desde una función llamada "filterUsers" que recibirá por parámetros la lista de usuarios y devolverá el array filtrado.
+    // El filtrado se realizará desde una función llamada "filterUsers" que recibirá por parámetros la lista de usuarios
+    // y devolverá el array filtrado.
 
     function filterUsers(usuarios) {
         let userFilter = usuarios.filter(
